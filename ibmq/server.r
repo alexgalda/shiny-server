@@ -12,6 +12,12 @@ server <- function(input, output, session) {
       users$count = users$count - 1
     })
   })
+  
+  reticulate::source_python('python_functions.py')
+  output$message <- renderText({
+    return(test_string_function(input$str))
+  })
+  
   output$backend   <- renderText("ibmq_armonk2")
   output$usercount <- reactive({paste0(users$count, " active session(s)")})
 }
