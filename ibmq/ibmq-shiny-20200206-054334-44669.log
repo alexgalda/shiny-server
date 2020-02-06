@@ -1,0 +1,34 @@
+
+Attaching package: ‘shinyalert’
+
+The following object is masked from ‘package:shiny’:
+
+    runExample
+
+
+Attaching package: ‘shinyBS’
+
+The following object is masked from ‘package:shinyalert’:
+
+    closeAlert
+
+
+Attaching package: ‘shinyjs’
+
+The following object is masked from ‘package:shinyalert’:
+
+    runExample
+
+The following object is masked from ‘package:shiny’:
+
+    runExample
+
+The following objects are masked from ‘package:methods’:
+
+    removeClass, show
+
+
+Listening on http://127.0.0.1:44669
+Warning: Error in load_data: could not find function "load_data"
+  49: server [/srv/shiny-server/ibmq/server.r#4]
+Error in load_data() : could not find function "load_data"
