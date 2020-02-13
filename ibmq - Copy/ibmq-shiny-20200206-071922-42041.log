@@ -1,0 +1,43 @@
+
+Attaching package: ‘shinyalert’
+
+The following object is masked from ‘package:shiny’:
+
+    runExample
+
+
+Attaching package: ‘shinyBS’
+
+The following object is masked from ‘package:shinyalert’:
+
+    closeAlert
+
+
+Attaching package: ‘shinyjs’
+
+The following object is masked from ‘package:shinyalert’:
+
+    runExample
+
+The following object is masked from ‘package:shiny’:
+
+    runExample
+
+The following objects are masked from ‘package:methods’:
+
+    removeClass, show
+
+
+Listening on http://127.0.0.1:42041
+Warning: Error in py_run_file_impl: ModuleNotFoundError: No module named 'numpy'
+
+Detailed traceback: 
+  File "<string>", line 1, in <module>
+
+  54: <Anonymous>
+Error in py_run_file_impl(file, local, convert) : 
+  ModuleNotFoundError: No module named 'numpy'
+
+Detailed traceback: 
+  File "<string>", line 1, in <module>
+
